@@ -1,0 +1,156 @@
+/* @group Icons */
+@media screen,projection {
+	
+.icon-bullet-16,
+.icon-video-16,
+.icon-audio-16,
+.icon-gallery-16,
+.icon-podcast-16,
+.icon-chat-16,
+.icon-print-16,
+.icon-rss-16,
+.icon-bullet-16-negative,
+.icon-video-16-negative,
+.icon-audio-16-negative,
+.icon-gallery-16-negative,
+.icon-podcast-16-negative,
+.icon-chat-16-negative,
+.icon-rss-16-negative,
+.icon-print-16-negative {
+	display: inline-block;
+	padding-left: 20px;
+}
+.icon-bullet-24,
+.icon-video-24,
+.icon-audio-24,
+.icon-gallery-24,
+.icon-podcast-24,
+.icon-print-24,
+.icon-chat-24,
+.icon-rss-24,
+.icon-bullet-24-negative,
+.icon-video-24-negative,
+.icon-audio-24-negative,
+.icon-gallery-24-negative,
+.icon-podcast-24-negative,
+.icon-chat-24-negative,
+.icon-print-24-negative,
+.icon-rss-24-negative {
+	display: inline-block;
+	padding-left: 28px;
+}
+.icon-bullet-16-negative,
+.icon-video-16-negative,
+.icon-audio-16-negative,
+.icon-gallery-16-negative,
+.icon-podcast-16-negative,
+.icon-chat-16-negative,
+.icon-rss-16-negative,
+.icon-print-16-negative,
+.icon-bullet-24-negative,
+.icon-video-24-negative,
+.icon-audio-24-negative,
+.icon-gallery-24-negative,
+.icon-podcast-24-negative,
+.icon-chat-24-negative,
+.icon-print-24-negative,
+.icon-rss-24-negative {
+	color: #fff;
+}
+.icon-bullet-16 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/bullet-16x16.png) no-repeat 0 50%;
+}
+.icon-video-16 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/display-16x16.png) no-repeat 0 50% !important;
+}
+.icon-audio-16 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/sound-medium-16x16.png) no-repeat 0 50% !important;
+}
+.icon-gallery-16 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/pictures-alt-2-16x16b.png) no-repeat 0 50% !important;
+}
+.icon-podcast-16 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/podcast-16x16.png) no-repeat 0 50% !important;
+}
+.icon-chat-16 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/chat-16x16.png) no-repeat 0 50% !important;
+}
+.icon-rss-16 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/rss-16x16.png) no-repeat 0 50% !important;
+}
+.icon-print-16 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/print-16x16.png) no-repeat 0 50% !important;
+}
+.icon-video-16-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/display-16x16-negative.png) no-repeat 0 50% !important;
+}
+.icon-audio-16-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/sound-medium-16x16-negative.png) no-repeat 0 50% !important;
+}
+.icon-gallery-16-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/pictures-alt-2-16x16b-negative.png) no-repeat 0 50% !important;
+}
+.icon-podcast-16-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/podcast-16x16-negative.png) no-repeat 0 50% !important;
+}
+.icon-chat-16-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/chat-16x16-negative.png) no-repeat 0 50% !important;
+}
+.icon-print-16-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/print-16x16-negative.png) no-repeat 0 50% !important;
+}
+.icon-rss-16-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/rss-16x16-negative.png) no-repeat 0 50% !important;
+}
+.icon-bullet-24 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/bullet-24x24.png) no-repeat 0 50%;
+}
+.icon-video-24 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/display-24x24.png) no-repeat 0 50% !important;
+}
+.icon-audio-24 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/sound-medium-24x24.png) no-repeat 0 50% !important;
+}
+.icon-gallery-24 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/pictures-alt-2-24x24b.png) no-repeat 0 50% !important;
+}
+.icon-podcast-24 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/podcast-24x24.png) no-repeat 0 50% !important;
+}
+.icon-chat-24 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/chat-24x24.png) no-repeat 0 50% !important;
+}
+.icon-print-24 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/print-24x24.png) no-repeat 0 50% !important;
+}
+.icon-rss-24 {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/rss-24x24.png) no-repeat 0 50% !important;
+}
+.icon-bullet-24-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/bullet-24x24-negative.png) no-repeat 2px 50%;
+}
+.icon-video-24-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/display-24x24-negative.png) no-repeat 0 50% !important;
+}
+.icon-audio-24-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/sound-medium-24x24-negative.png) no-repeat 0 50% !important;
+}
+.icon-gallery-24-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/pictures-alt-2-24x24b-negative.png) no-repeat 0 50% !important;
+}
+.icon-podcast-24-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/podcast-24x24-negative.png) no-repeat 0 50% !important;
+}
+.icon-chat-24-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/chat-24x24-negative.png) no-repeat 0 50% !important;
+}
+.icon-print-24-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/print-24x24-negative.png) no-repeat 0 50% !important;
+}
+.icon-rss-24-negative {
+	background: url(http://fil.nrk.no/contentfile/web/icons/new/rss-24x24-negative.png) no-repeat 0 50% !important;
+}
+
+}
+
+/* @end */

@@ -1,0 +1,21 @@
+/* @group Ads */
+@media screen,projection {
+	
+.ad {
+	background: url(http://fil.nrk.no/contentfile/web/bgimages/common/ads/ad.png) no-repeat;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	clear: both;
+}
+.top-ads {
+	display: none;
+}
+
+}
+@media print {
+.ad {
+	display: none;
+}
+}
+/* @end */

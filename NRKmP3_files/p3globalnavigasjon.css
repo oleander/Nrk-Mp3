@@ -1,0 +1,152 @@
+/*
+P3navigasjon
+*/
+
+.p3menu {
+	clear:left;
+text-align: left;
+	font-family: Verdana, Arial, sans-serif;
+	border-bottom: 1px solid #B5B5B5;
+	border-top: 1px solid #B5B5B5;
+	position: relative;
+	font-size: 12px;
+z-index: 100;
+	font-weight: bold;
+}
+.p3menu .toplvl .sublvl li strong a {
+	font-weight:bold;
+}
+.p3menu .separator-right {
+	border-right:1px dotted #ccc;
+	margin-right: 10px;
+	padding-right:10px;
+}
+.p3menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.p3menu li, .p3menu .toplvl {
+	float: left;
+}
+.p3menu .toplvl li a {
+	height: 26px;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+
+.p3menu .toplvl li a.mainm {color: #000;}
+.p3menu .toplvl li a.mainm.selected {color: #FFF;}
+
+
+
+.p3menu .toplvl .sublvl li a {
+	color: #FFF;
+	font-weight: normal;
+	line-height: 19.2px;
+	text-transform: none;
+	height: auto;
+	padding: 0;
+}
+.p3menu .toplvl .sublvl li a:hover {
+	text-decoration: underline;
+}
+.p3menu .extras {
+	float: right;
+}
+.p3menu .sublvl li {
+	float: none;
+}
+.p3menu .toplvl a, .p3menu .extras a {
+	text-decoration: none;
+	padding: 5px 10px 0;
+	display: block;
+	color: inherit;
+}
+.p3menu .toplvl li.home a {
+	background-color: #F0F0F0;
+	height: 26px;
+color: #000;
+}
+.p3menu a.selected {
+	background: #000;
+	color: #fff;
+}
+.p3menu .sublvl {
+	background-image:url(http://p3.no/wp-content/themes/p3/images/p3globalnavigasjon_bg.png);
+	position: absolute;
+	display: none;
+	padding:0 20px 20px;
+border-top: 11px solid #000;
+	left: 0;
+	right: 0;
+	display:none;
+	font-weight:normal;
+	line-height:normal;
+}
+.p3menu .toplvl .sublvl a {
+	display: inline;
+	text-transform:none;
+	padding: 0;
+}
+.p3menu li div div {
+	float: left;
+	color: #FFF;
+	position: relative;
+}
+.p3menu ul ul {
+	width: 175px;
+}
+.p3menu h3 {
+	margin: 0;
+	font-size: 14px;
+	color:#FFFFFF;
+	font-family:Verdana;
+	font-weight:bold;
+}
+.p3menu:after, .p3menu li > div:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.p3menu li.facebook a, .p3menu li.twitter a, .p3menu li.kontakt a, .p3menu li.foto a {
+	display:block;
+	height:20px;
+	width:20px;
+	padding: 0;
+	text-indent:-10000px;
+	margin:5px 10px 0 10px;
+}
+.p3menu li.facebook a {
+	background:transparent url(http://p3.no/wp-content/themes/p3/images/sprite_ikoner_20px.png) no-repeat scroll 0 0;
+}
+.p3menu li.facebook a:hover {
+	background:transparent url(../images/sprite_ikoner_20px.png) no-repeat scroll 0 -25px;
+}
+.p3menu li.twitter a {
+	background:transparent url(../images/sprite_ikoner_20px.png) no-repeat scroll -25px 0;
+}
+.p3menu li.twitter a:hover {
+	background:transparent url(../images/sprite_ikoner_20px.png) no-repeat scroll -25px -25px;
+}
+.p3menu li.kontakt a {
+	background: transparent url(../images/sprite_ikoner_20px.png) no-repeat scroll -125px 0;
+}
+.p3menu li.kontakt a:hover {
+	background: transparent url(../images/sprite_ikoner_20px.png) no-repeat scroll -125px -25px;
+}
+.p3menu li.foto a {
+	background: transparent url(../images/sprite_ikoner_20px.png) no-repeat scroll -150px 0;
+}
+.p3menu li.foto a:hover {
+	background: transparent url(../images/sprite_ikoner_20px.png) no-repeat scroll -150px -25px;
+}
+
+.p3menu .toplvl li.page_item, .p3menu .extras li {
+	border-left:1px solid #f3f3f3;
+	height:31px;
+}

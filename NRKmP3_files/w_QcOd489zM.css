@@ -1,0 +1,74 @@
+/*1295921693,176832698*/
+
+.fbEmu .body .fbEmuLink{color:#333}
+.fbEmu .body .fbEmuLink:hover{text-decoration:none}
+.fbEmu .body a.signature{color:#3b5998;display:inline}
+.fbEmu .body a.signature:hover{text-decoration:underline}
+.fbEmu .hover:hover .title .fbEmuLink{text-decoration:underline}
+.fbEmu .forceRTL{direction:rtl;text-align:right}
+.fbEmu .forceLTR{direction:ltr;text-align:left}
+.fbEmu .adInfo a.identity{color:#808080;display:block;white-space:nowrap}
+.fbEmuHide{display:block;float:right;height:13px;margin:2px 2px 0 0;width:11px;padding-bottom:2px;padding-left:5px}
+.fbEmuHide .thex{display:block;height:13px;width:11px;background-image:url(http://b.static.ak.fbcdn.net/rsrc.php/zp/r/QH3ct8_252w.png);background-repeat:no-repeat}
+.fbEmuHide .thex:hover{background-image:url(http://b.static.ak.fbcdn.net/rsrc.php/zy/r/ALs1GQYn2lM.png);background-repeat:no-repeat;background-color:#3b5998;text-decoration:none}
+.fbEmuHide_new{float:right;margin:2px 2px 0 4px}
+.fbEmuHidePoll .undo{float:right;padding-left:2px;padding-bottom:2px;margin-bottom:3px;margin-left:5px}
+.fbEmuBlock .fbEmuHidePoll .otherdiv{margin-left:20px}
+.fbEmuFloat .fbEmuHide{margin-top:0}
+.fbEmuLegacy .fbEmuHidePoll .otherdiv .other{width:141px}
+.fbEmuEgo .fbEmuHidePoll .otherdiv .other{width:206px}
+.fbEmuBlock .title{font-weight:bold;line-height:13px;margin-bottom:4px;margin-right:20px}
+.fbEmuEgo .body .fbEmuLink{line-height:13px}
+div.fbEmuEgoUnit{margin-top:0;padding-top:8px;border-top:1px solid #e9e9e9;margin-bottom:8px}
+div.fbEmuEgoUnitFirst{margin-bottom:8px}
+div.fbEmuEgo .image .img{max-height:72px;max-width:100px;padding-top:3px}
+.fbEmuEgo .action{margin-top:5px}
+.fbEmuEgo{line-height:13px}
+.fbEmuEgo .fbEmuHide{margin-top:0 !important}
+.fbEmuEgo .title{font-weight:bold;margin-bottom:0 !important}
+.fbEmuEgo .image{width:100px;display:block;text-align:center}
+.fbEmuEgo .image_body_block{padding-top:3px}
+.fbEmuEgo .action{color:#777}
+.fbEmuEgo .action .fbEmuContext .fbEmuLink{color:#777}
+.fbEmuEgo .action div.UIImageBlock_Content{padding-top:1px}
+.fbEmuTracking{position:absolute;visibility:hidden}
+.permalink_stream .uiStream .uiStreamMessage{font-size:13px}
+.ego_page .UIStandardFrame_Container{padding-left:0;width:980px}
+.ego_page .UIStandardFrame_Content{width:720px}
+.ego_page .UIStandardFrame_SidebarAds{width:auto}
+.ego_page .photo_metadata .left_metadata{width:490px}
+.ego_column{width:244px}
+.ego_section .async_saving a{display:none}
+.ego_section .indicator{display:none}
+.ego_section .async_saving .indicator{display:inline}
+.ego_unit{margin-bottom:6px}
+.inCommonSectionList{margin-bottom:1px}
+.requestsEgoListItem{margin-top:8px}
+.fbProfileNavHeaderEditButton{width:18px;height:18px;display:block}
+.fbProfileNavHeaderEditButton:hover .navHeaderPencil{opacity:.8}
+.fbProfileNavHeaderEditButton:active .navHeaderPencil{opacity:1}
+.fbxLeftNavHeaderActionLists{position:relative;top:-2px;margin-bottom:-7px}
+.uiSimpleScrollingLoadingIndicator{display:none;margin:auto}
+.async_saving .uiSimpleScrollingLoadingIndicator{display:block}
+.uiBoxGray{background-color:#f2f2f2;border:1px solid #ccc}
+.uiBoxWhite{background-color:#fff;border:1px solid #ccc}
+.uiBoxLightblue{background-color:#edeff4;border:1px solid #d8dfea}
+.uiBoxRed{background-color:#ffebe8;border:1px solid #dd3c10}
+.uiBoxYellow{background-color:#fff9d7;border:1px solid #e2c822}
+.uiBoxOverlay{background:rgba(255, 255, 255, .85);border:1px solid #3b5998;border:1px solid rgba(59, 89, 153, .65);zoom:1}
+.noborder{border:none}
+.topborder{border-bottom:none;border-left:none;border-right:none}
+.bottomborder{border-left:none;border-right:none;border-top:none}
+.uiMorePager .uiMorePagerPrimary{display:block;padding:10px 15px}
+.uiMorePager .uiMorePagerPrimary:hover{background-color:#d8dfea}
+.uiMorePager .uiMorePagerSecondary{margin:10px 15px}
+.uiMorePager .arrow{display:inline;position:absolute}
+.uiMorePager .uiMorePagerLoader{display:none;text-align:center;padding:11px 15px 9px}
+.async_saving .uiMorePagerLoader{display:block}
+.async_saving .uiMorePagerPrimary,.async_saving .uiMorePagerSecondary{display:none}
+.uiMorePagerLight .uiMorePagerPrimary,.uiMorePagerLight .uiMorePagerLoader{padding:6px 5px 10px;border-top:1px solid #e5eaf1}
+.uiMorePagerLight .uiMorePagerPrimary:hover{background-color:#edeff4;border-top:1px solid #d8dfea}
+.uiMorePagerLight .uiMorePagerSecondary{margin:6px 5px}
+.uiMorePagerCenter{text-align:center}
+
+#bootloader_HlUp_ { height: 42px; }

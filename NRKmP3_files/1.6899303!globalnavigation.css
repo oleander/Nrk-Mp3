@@ -1,0 +1,283 @@
+/* @group Globalnavigation */
+@media screen,projection {
+	
+.nrk-globalnavigation {
+	font-family: Arial, sans-serif !important;
+	padding: 15px 0 0;
+	position: relative;
+	background: #000 url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+	font-size: 13px;
+	color: #fff;
+	z-index: 2;
+	clear: both;
+	margin-bottom:10px;
+}
+.nrk-globalnavigation .hidden {
+	position: absolute;
+	left: -9999px;
+}
+.nrk-globalnavigation .nrk-logo {
+	float: left;
+	width: 70px;
+}
+.nrk-globalnavigation .nrk-logo a {
+	background: url(http://fil.nrk.no/contentfile/web/globalnavigation/nrklogo-white.png) no-repeat;
+	text-indent: -9999px;
+	display: block;
+	height: 25px;
+	width: 69px;
+	float: left;
+	margin: 0;
+}
+.nrk-globalnavigation #sitesearch {
+	padding-bottom: 14px;
+	margin: 0;
+	float: right;
+}
+.nrk-globalnavigation #sitesearch label {
+	position: absolute;
+	left: -9999px;
+}
+.nrk-globalnavigation #sitesearch input {
+	vertical-align: middle;
+	font-size: 12px;
+	line-height: 1;
+	padding: 0;
+}
+.nrk-globalnavigation #sitesearch .textinput {
+	margin: 0 5px;
+	background: #fff;
+	overflow: hidden;
+	height: 20px;
+	width: 135px;
+	color: #000;
+}
+.nrk-globalnavigation #sitesearch .buttoninput {
+	background: #222 url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	border-bottom-color: #222;
+	border: 1px solid #333;
+	text-align: center;
+	overflow: visible;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 1px 0;
+	height: 26px;
+	width: 50px;
+	color: #fff;
+	padding: 0;
+}
+.nrk-globalnavigation #sitesearch .buttoninput:hover {
+	background-color: #333;
+	border-color: #444;
+	color: #fff;
+}
+.nrk-globalnavigation #sitesearch .buttoninput:active {
+	background-color: #000;
+	border-color: #333;
+	color: #aaa;
+}
+.nrk-globalnavigation strong {
+	
+}
+.nrk-globalnavigation a {
+	text-decoration: none;
+	line-height: 1.6;
+	font-size: 12px;
+	outline: none;
+	color: #cef !important;
+}
+.nrk-globalnavigation a:hover {
+	text-decoration: underline;
+	color: #fff !important;
+}
+.nrk-globalnavigation ul {
+	border-bottom: 4px solid #059;
+	overflow: visible;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.nrk-globalnavigation li {
+	overflow: visible;
+	padding: 10px 0;
+	width: 100%;
+	float: left;
+}
+.nrk-globalnavigation ul ul,
+.nrk-globalnavigation li.toplevel {
+	margin: 0 auto;
+	width: 970px;
+	float: none;
+	padding: 0;
+	border: 0;
+}
+.nrk-globalnavigation li li {
+	outline: none;
+	padding: 0;
+}
+.nrk-globalnavigation ul ul ul {
+	width: auto;
+}
+.nrk-globalnavigation ul ul ul ul {
+	margin-bottom: 10px;
+}
+.nrk-globalnavigation li li li {
+	margin-right: 10px;
+	width: 185px;
+	float: left;
+}
+.nrk-globalnavigation li li .padded {
+	padding: 20px 0 0;
+}
+.nrk-globalnavigation li li .separator-right {
+	border-right: 1px dotted #38C;
+	float: left;
+}
+.nrk-globalnavigation li li li li {
+	margin: 0 30px 0 0;
+	padding: 0;
+	outline: none;
+	float: none;
+}
+.nrk-globalnavigation li li li .separator-top {
+	position: absolute;
+	bottom: 2px;
+}
+.nrk-globalnavigation li li li li a {
+	
+}
+.nrk-globalnavigation .toplevel {
+	position: relative;
+	padding: 15px 0 0;
+}
+.nrk-globalnavigation .toplevel ul,.nrk-globalnavigation .toplevel li {
+	float: left;
+	width: auto;
+}
+.nrk-globalnavigation .toplevel ul {
+	margin-left: 60px;
+}
+.nrk-globalnavigation .toplevel li {
+	background: #111 url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+	margin: 0 3px;
+}
+.nrk-globalnavigation .toplevel li a {
+	background: url(http://fil.nrk.no/contentfile/web/globalnavigation/arrow-expand.png) no-repeat 100% 50%;
+	padding: 5px 30px 5px 12px;
+	border: 1px solid #333;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	font-size: 14px;
+	display: block;
+	color: #fff !important;
+}
+.nrk-globalnavigation .toplevel li a:hover {
+	background-color: #333;
+	border-color: #555;
+}
+.nrk-globalnavigation .toplevel li.selected {
+	background-color: #059;
+}
+.nrk-globalnavigation .toplevel li.selected a {
+	background-image: url(http://fil.nrk.no/contentfile/web/globalnavigation/arrow-collapse.png);
+	border-color: #17C;
+	color: #fff;
+}
+.nrk-globalnavigation .toplevel li.selected a:hover {
+	background-color: #06C;
+	border-color: #28E;
+}
+.nrk-globalnavigation .sublevel {
+	background: #059 url(http://fil.nrk.no/contentfile/web/globalnavigation/subnav-bg.jpg) no-repeat 50% 0;
+	border-top: 1px solid #27C;
+	padding: 8px 0;
+}
+.nrk-globalnavigation .sublevel h5 {
+	font-family: Verdana;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.4;
+	font-size: 11px;
+	margin: 2px 0 3px 0;
+	display: block;
+	color: #fff;
+}
+.nrk-globalnavigation .chooser form {
+	margin: 0 0 3px;
+}
+.nrk-globalnavigation .chooser label {
+	position: absolute;
+	left: -9999px;
+}
+.nrk-globalnavigation .chooser select {
+	margin: 3px 0 0 0;
+	background: #fff;
+	display: block;
+	width: 140px;
+	color: #000;
+}
+.clearfix:after {
+	height: 0;
+	clear: both;
+	content: '.';
+	display: block;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* IE FIX */
+* html .nrk-globalfooter div,
+* html .nrk-globalnavigation ul ul {
+	text-align: left;
+}
+* html .nrk-globalnavigation {
+	background: #000;
+}
+* html .nrk-globalnavigation .sublevel ul {
+	margin: 0;
+}
+* html .nrk-globalnavigation .sublevel li li {
+	margin-right: 10px;
+}
+* html .nrk-globalnavigation .sublevel li li li {
+	margin: 0;
+}
+* html .nrk-globalnavigation .toplevel li a {
+	background-color: #222;
+}
+* html .nrk-globalnavigation .toplevel li.selected a {
+	background-color: #059;
+}
+* html .clearfix { height:1%; }
+
+.aaretsnettsted2010 {
+	position: absolute;
+	background: url(http://fil.nrk.no/contentfile/web/globalnavigation/aaretsnettsted2010.png) no-repeat 50% -5px;
+	text-decoration: none;
+	overflow: hidden;
+	text-indent: 100px;
+	white-space: nowrap;
+	height: 75px;
+	width: 65px;
+	right: 220px;
+	top: -22px;
+	z-index: 99;
+	zoom: 1;
+}
+
+}
+@media print {
+.nrk-globalnavigation { display: none; }
+}
+/* @end */

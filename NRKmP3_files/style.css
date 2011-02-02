@@ -1,0 +1,645 @@
+@import url('css/reset.css');
+@import url('css/style.css');
+@import url('css/rotating-posts.css');
+
+
+
+/*jquery tools slideshow*/
+.artikkelslideshow .disabled {
+	visibility:hidden !important;		
+}
+
+/* container for slides */
+.artikkelslideshow {
+	background:#fff url(/img/global/gradient/h300.png) repeat-x;
+	/*border:1px solid #ccc;*/
+	position:relative;	
+	/*height:600px; width:400px; flyttet til artikkel*/
+	/*float:left;	*/
+	margin:15px;
+	cursor:pointer;
+		
+}
+
+/* single slide */
+.artikkelslideshow div {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;		
+	/*margin:7px;
+	padding:15px 30px 15px 15px;*/
+	height:535px;
+	font-size:12px;
+}
+
+
+
+/*avslutt jquery tools slideshow*/
+
+
+
+
+.newsspot a img {border: 1px solid #666;}
+
+.newsspot p {padding-bottom: 10px;}
+
+.fp-anmeldelser h2 {
+line-height: 25px;
+padding: 5px 0;
+}
+
+.fp-anmeldelser h2 a:visited, .fp-anmeldelser h3 a:visited  {color: #2176CC;}
+
+.fp-anmeldelser a {
+color: #2176cc;
+}
+
+.fp-anmeldelser a:hover, .fp-anmeldelser h2 a:hover, .fp-anmeldelser h3 a:hover {
+color: #E32F2F;
+}
+
+.fp-anmeldelser {
+font-size: 13.4px;
+font-family: Verdana,Arial,sans-serif;
+
+
+}
+
+.fp-anmeldelser .fp-anmeldelser-item {
+
+min-height: 238px;
+}
+
+.fp-heading {
+font-family: Arial,'Trebuchet MS','Lucida Grande',Verdana,Arial,Sans-Serif;
+font-size: 35px;
+font-weight: bold;
+margin-top: 10px;
+padding: 10px 0;
+border-top: 1px solid #F3F3F3;
+
+}
+
+#sidebar .fp-heading {
+
+font-size: 24px;
+font-weight: bold;
+padding: 0;
+}
+
+#sidebar .fp-anmeldelser h2, .fp-anmeldelser h2 {
+font-family: Verdana,Arial,sans-serif;
+font-size: 14px;
+margin-top: 0;
+padding: 5px 0;
+
+}
+
+
+.fp-anmeldelser .sidefeatureexcerpt {
+margin-bottom: 20px;
+
+}
+
+.fp-anmeldelser .overlay {
+display: block;
+position: relative;
+top:20px;
+z-index: 10;
+height: 20px;
+width: 55px;
+background:url('images/filmpolitiet_sprite.png') no-repeat -330px 0;
+text-indent: -10000px;
+
+}
+
+.fp-anmeldelser .overlay.Film {
+background:url('images/filmpolitiet_sprite.png') no-repeat -330px 0;
+}
+
+.fp-anmeldelser .overlay.Spill {
+background:url('images/filmpolitiet_sprite.png') no-repeat -440px 0;
+}
+
+.fp-anmeldelser .overlay.Serie {
+background:url('images/filmpolitiet_sprite.png') no-repeat -550px 0;
+}
+
+.arkivnavigasjon .terningkast1, .arkivnavigasjon .terningkast2, .arkivnavigasjon .terningkast3, 
+.arkivnavigasjon .terningkast4, .arkivnavigasjon .terningkast5, .arkivnavigasjon .terningkast6 {
+
+margin-left: 20px
+}
+
+.fp-search-item {
+padding: 0 0 20px 0;
+border-bottom: 1px dotted #CCC;
+}
+.fp-search-item h3 {
+font-size: 16px;
+line-height: normal;
+}
+
+.fp-search-thumb {height: 130px; display:block;}
+
+.fp-anmeldelser .fp-search-item .overlay {
+position: absolute;
+top:0;}
+
+.stort.terningkast1, .stort.terningkast2, .stort.terningkast3, .stort.terningkast4, .stort.terningkast5, .stort.terningkast6, 
+.fp-anmeldelser .stort.terningkast1,.fp-anmeldelser .stort.terningkast2,.fp-anmeldelser .stort.terningkast3,.fp-anmeldelser .stort.terningkast4,.fp-anmeldelser .stort.terningkast5,.fp-anmeldelser .stort.terningkast6 {
+float: right; 
+display: block;
+margin: 0 0 0 10px;
+height: 55px;
+width: 55px;
+background:url('images/filmpolitiet_sprite.png') no-repeat;
+text-indent: -10000px;
+
+}
+
+.stort.terningkast1, .fp-anmeldelser .stort.terningkast1 {
+background:url('images/filmpolitiet_sprite.png') no-repeat 0 -110px;
+}
+
+.stort.terningkast2, .fp-anmeldelser .stort.terningkast2 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -75px -110px;
+}
+
+.stort.terningkast3, .fp-anmeldelser .stort.terningkast3 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -150px -110px;
+}
+
+.stort.terningkast4, .fp-anmeldelser .stort.terningkast4 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -225px -110px;
+}
+
+.stort.terningkast5, .fp-anmeldelser .stort.terningkast5 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -300px -110px;
+}
+
+.stort.terningkast6, .fp-anmeldelser .stort.terningkast6 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -375px -110px;
+}
+
+
+.fp-anmeldelser .terningkast1, .fp-anmeldelser .terningkast2, .fp-anmeldelser .terningkast3, .fp-anmeldelser .terningkast4, .fp-anmeldelser .terningkast5, .fp-anmeldelser .terningkast6 {
+float: right; 
+display: block;
+margin-top: 8px;
+height: 20px;
+width: 20px;
+background:url('images/filmpolitiet_sprite.png') no-repeat;
+text-indent: -10000px;
+
+}
+
+.fp-anmeldelser .terningkast2 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -55px 0;
+}
+
+.fp-anmeldelser .terningkast3 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -110px 0;
+}
+
+.fp-anmeldelser .terningkast4 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -165px 0;
+}
+
+.fp-anmeldelser .terningkast5 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -220px 0;
+}
+
+.fp-anmeldelser .terningkast6 {
+background:url('images/filmpolitiet_sprite.png') no-repeat -275px 0;
+}
+
+.forside_sekssaker{
+	margin-bottom: 10px;
+}
+
+.forside_sekssaker h6 a {font-size: 16px; color: #000;}
+
+/*ingress er 13,4 verdana
+(03:41:11 PM) Martin Aas: Tittel er 18px verdana bold
+(03:41:26 PM) Martin Aas: blåfargen er #2176cc
+spacing fra tittel til ingress er 24px
+*/
+
+
+/* p3 */
+#header {
+	height: 200px;
+	background-image:url(http://nrkp3.no/mp3/wp-content/themes/mp3/images/mp3headSTIANbg.png);
+	background-repeat: no-repeat;
+	clear: both;
+	/*margin-top: 10px;*/
+}
+#header #mp3logo {
+	float: left;
+	width: 153px;
+border:0;
+}
+
+#header .mp3promo {
+	border:0;
+	width: 700px;
+	float: right;
+	margin: 0 0 0 0;
+}
+
+/* p3 end*/
+
+/*menu*/
+#menu{height:31px;border-top:1px solid #B5B5B5;border-bottom:1px solid #B5B5B5;}
+#menu ul{float:left;margin:0;padding:0;}#menu li{display:inline;}
+#menu li.home a{display:block;height:20px;width:20px;text-indent:-10000px;padding-right:0;border-left:none;background:transparent url(http://p3.no/wp-content/themes/p3/images/sprite_ikoner_20px.png) no-repeat scroll -50px 0;margin:5px 10px 0;}
+#menu li.info a {border-right:1px solid #F3F3F3;}
+#menu li.filmbonanza {padding: 0 10px;}
+#menu li.filmbonanza a{display:block;height:13px;width:89px;border-left:none; text-indent:-10000px; background:transparent url(http://nrkp3.no/filmpolitiet/wp-content/themes/filmpolitiet/images/filmbonanza-nav.png) no-repeat scroll;margin:8px 10px 0;}
+
+#menu ul a{ color: #000; border-left:1px solid #F3F3F3;float:left;font-size:12px;font-weight:700;height:26px;line-height:20px;text-decoration:none;text-transform:uppercase;margin:0;padding:5px 10px 0;}
+#menu a:hover{color:#E32F2F;}
+
+
+/*Morten tester, flyttes over til nav.css eller css/nav.css*/
+
+/*forsiden, tabs*/
+.css-tabs-holder {height: 31px;
+line-height: 20px;
+clear: left;
+border-bottom: 1px solid #B5B5B5;}
+
+ul.css-tabs li {display: inline; font-size: 12px;}
+ul.css-tabs li a {font-size: 12px; color: #000;
+border-left: 1px solid #F3F3F3;
+padding: 5px 10px 0;
+line-height: 20px;
+float:left;
+height: 26px;
+}
+
+ul.css-tabs li a.current {background-color: #000; color: #FFF;}
+
+
+/*horisontal liste, p3-meny-look*/
+.fp-nav-holder {height: 31px;
+line-height: 20px;
+clear: left;
+border-bottom: 1px solid #B5B5B5;}
+ul.fp-nav-tabs li {display: inline; font-size: 12px;}
+ul.fp-nav-tabs li a {font-size: 12px; color: #000;
+border-left: 1px solid #F3F3F3;
+padding: 5px 10px 0;
+line-height: 20px;
+float:left;
+height: 26px;
+}
+ul.fp-nav-tabs li a.current {background-color: #F3F3F3;}
+ul.fp-nav-tabs li a.first {
+border-left: none;
+padding: 5px 10px 0 0;
+}
+
+.search #searchform {margin-top: 0; margin-bottom: 0; float: right;}
+
+
+/*forsiden, widgets*/
+
+#get_recent_comments_wrap UL{
+	
+	margin:10px 0 !important;
+}
+
+
+
+.widget h3 {
+font-size: 24px;
+font-weight: bold; 
+
+}
+.widget li  {
+font-size: 13.4px;
+color: #333;
+line-height: normal;
+padding-bottom: 10px;
+
+}
+
+.widget li em {
+font-size: 11px;
+color: #666;
+}
+
+.widget li a  {
+font-size: 14px;
+
+}
+
+.widget-title.boks5{
+
+	line-height:24px;
+	margin-bottom:10px;
+}
+
+h3.widget-title.boks6{
+
+	margin: 0 0 10px 0 !important;
+	line-height:24px;
+}
+
+.widget-title.boks6 li{
+	
+	padding-bottom:0 !important;
+}
+
+H3.widget-title{
+	font-size:24px;
+	font-weight:bold;
+	
+}
+
+
+.fp-artikkeltopp, .fp-artikkeltopp-playing{
+	height:545px;
+	width:970px;
+	background-color:#000;
+
+}
+
+
+.fp-artikkelvideo, .fp-artikkelvideo-playing{
+	height:360px;
+	width:640px;
+	background-color:#000;
+
+}
+
+
+.playKnapp, .playKnapp-fp{
+
+background: transparent url(http://nrkp3.no/fpbeta/wp-content/uploads/2010/04/VideoOverlayPlaySprite.png) no-repeat 0 0;
+text-indent: -10000px; 
+display:block;
+z-index:100;
+top: 450px;
+left:35px;
+position: absolute;
+width:220px;
+height:70px;
+cursor:pointer;
+}
+
+.playKnapp:hover, .playKnapp.hover, .playKnapp-fp.hover, .playKnapp-fp:hover{
+ background-position: 0 -225px ;
+}
+
+
+
+body {background-color: #FFF !important;}
+
+#wrapper {
+border-left:1px solid #F3F3F3;
+border-right:1px solid #F3F3F3;
+margin: 0 auto 0 !important;
+}
+
+.wp-caption-top {background-color:#FFF !important;}
+
+.faktaboks {float: right !important; font-size: 11px;}
+
+.faktaboks img.coverart {margin: 0 0 0 10px;}
+
+.faktaboks .fbshare img {float: left; display: block; margin: 2px 5px 0 0;}
+
+
+.faktaboks h3, .faktaboks strong {font-size: 13.4px; font-weight: bold; font-family: Verdana, Arial, sans-serif;}
+
+html > body .entry .faktaboks ul 
+{
+text-indent: 0;
+margin: 0;
+padding: 0;
+}
+
+.entry ul li:before, #sidebar ul ul li:before {
+	content: "";
+}
+
+.faktaboks li {
+list-style-type:none; 
+border-bottom: 1px dotted #ccc;
+}
+
+.faktaboks li:first-child {
+border-bottom: 1px solid #000;
+}
+
+#menu {
+background-color:#FEFEFE;
+border-bottom:1px solid #B5B5B5;
+border-top:1px solid #B5B5B5;
+font-size:12px;
+font-weight:normal;
+height:31px;
+line-height:20px;
+text-transform:uppercase;
+}
+
+#menu .menu li {
+border-left:1px solid #f3f3f3; 
+height:31px;
+line-height:31px;
+padding: 0 10px;
+}
+
+.menu ul li {
+float:left;
+margin: 0 !important; 
+}
+
+
+
+#menu .menu ul.menu-left li:hover {
+background-color: #00c0ff;
+}
+
+#menu .menu li.home {
+border-left: none;
+}
+
+#menu .menu li.home a {
+background: transparent url(images/sprite_ikoner_20px.png) no-repeat scroll -50px 0;
+}
+#menu .menu li.home a:hover {
+background: transparent url(images/sprite_ikoner_20px.png) no-repeat scroll -50px -25px;
+}
+
+
+
+#menu .menu li.home a, #menu .menu li.facebook a, #menu .menu li.twitter a, #menu .menu li.kontakt a {
+display:block;
+height:20px;
+width:20px;
+text-indent:-10000px;
+margin:5px 0 0;
+}
+
+#menu .menu li.facebook a {
+background:transparent url(images/sprite_ikoner_20px.png) no-repeat scroll 0 0;
+}
+#menu .menu li.facebook a:hover {
+background:transparent url(images/sprite_ikoner_20px.png) no-repeat scroll 0 -25px;
+}
+
+#menu .menu li.twitter a {
+background:transparent url(images/sprite_ikoner_20px.png) no-repeat scroll -25px 0;
+}
+#menu .menu li.twitter a:hover {
+background:transparent url(images/sprite_ikoner_20px.png) no-repeat scroll -25px -25px;
+}
+
+#menu .menu li.kontakt a {
+background: transparent url(images/sprite_ikoner_20px.png) no-repeat scroll -125px 0;
+}sidefeature
+#menu .menu li.kontakt a:hover {
+background: transparent url(images/sprite_ikoner_20px.png) no-repeat scroll -125px -25px;
+}
+
+
+/*faktaboks single.php*/
+.fbshare {margin-left: 10px;}
+
+
+#footer .colofon {
+height: 180px;
+background-image:url('images/mp3footer.png');
+background-repeat:no-repeat;
+background-position:right top;
+}
+
+
+
+
+#footer .colofon .sitat {
+font-size: 13.4px;
+color: #010101;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+position: absolute;
+bottom:80px;
+line-height: normal;
+width: 370px;
+}
+
+#footer .kontakt {
+height: 55px;
+background-color: #000;
+}
+
+#footer .kontakt strong {
+color: #fff;
+float: left;
+font-size: 22px;
+font-weight: normal;
+margin: 14px 0 0 10px; 
+}
+
+
+#footer ul.kontakt-nav {
+	float: right; 
+	/*width: 640px;*/
+	margin: 10px 10px 0 0;
+	line-height: normal;
+}
+
+#footer ul.kontakt-nav li {
+	/*width: 150px;*/
+	float: left;
+	display: inline;
+	margin-left: 90px;
+}
+
+#footer ul.kontakt-nav li a {
+	color: #eee;
+	font-weight: normal;
+}
+
+
+#footer ul.kontakt-nav li a.epost {
+	font-size: 11px;
+}
+
+
+
+
+/*arkiv*/
+ol.snap_nav {
+	display: inline;
+	float: left;
+	clear: both;
+	list-style: none;
+}
+
+ol.snap_nav li {
+	display: block;
+	float: left;
+	padding: 0 5px 10px 0;
+}
+
+ol.snap_nav li a {
+	font-weight: bold
+}
+
+ol.snap_nav li.snap_selected a {
+	cursor: text;
+}
+
+ol.snap_titles {
+	clear: both;
+	display: block;
+	border: 0;
+	list-style: none;
+}
+
+
+/*infoartikkel*/
+
+.fp-infoartikkel h5 {
+font-size: 34px;
+line-height: normal;
+font-weight: bold;
+
+}
+
+.fp-infoartikkel .birger {
+	background:url('images/Info_BirgerBG.jpg') no-repeat;
+	height: 254px;
+	padding: 10px 170px 0 200px;
+}
+
+.fp-infoartikkel .marte {
+	background:url('images/Info_MarteBG.jpg') no-repeat;
+    padding: 10px 160px 0 144px;
+height: 254px;
+}
+
+
+.fp-infoartikkel .rune {
+	background:url('images/Info_RuneBG.jpg') no-repeat;
+height: 254px;
+ padding: 30px 140px 0 200px;
+
+}
+
+
+.fp-infoartikkel .torfinn {
+	background:url('images/Info_TorfinnBG.jpg') no-repeat;
+height: 254px;
+ padding: 10px 125px 0 130px;
+
+}
+
+
+
+/*avslutter Morten tester, flyttes over til nav.css eller css/nav.css*/
