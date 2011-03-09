@@ -25,7 +25,8 @@ $(function() {
         list = ich.song({
           song: data[i].song,
           url:  data[i].url,
-          time: data[i].time
+          time: data[i].time,
+          cl:  data[i].url === undefined ? 'spotifyoff' : 'spotify'
         });
         
        $('tbody.songs').append(list[0]);
@@ -36,8 +37,6 @@ $(function() {
   Beacon.connect('f8024b7d', ['mp3']);
   
   Beacon.listen(function (payload) {
-    console.debug(payload);
-    console.debug("oooooooooooooooooooooooooooooooooooooooooo")
-    alert("NU!");
+
   });
 });
